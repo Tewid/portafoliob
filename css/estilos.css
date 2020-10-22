@@ -1,0 +1,106 @@
+*{box-sizing: border-box; font-family: sans-serif;}
+body
+{
+    margin: auto;
+    width: 98%;
+}
+h2, h3, h4
+{
+    font-family: "bignoodletitlingregular"
+}
+#contenedor0
+{
+ background-color: white;
+}
+.centrart
+{
+    text-align: center;
+}
+#botones_p
+{
+    border-radius: 90px;
+    border: none;
+    background-color: #0667F4;
+}
+.col-md-1
+{
+    align-self: center;
+}
+#contenedor2
+{
+
+    background-color: #071BCA;
+    color: white;
+}
+#contenedor3
+{
+    background-color: #0667F4;
+    color: white;
+}
+#caja
+{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 90px;
+}
+#caja2
+{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 90px;
+}
+#headerc3
+{
+    background-color: black;
+    color: white;
+}
+#formulario
+{
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+#contenedor6
+{
+    background-color: #071BCA;
+}
+ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-image: url("https://i.ibb.co/LRBv7Gv/llogo.jpg");
+}
+#enviar
+{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    width: 20%;
+    border: none;
+    background-color: #0667F4; 
+}
+@media screen and (max-width:980px){
+    #contenedor2
+    {
+        text-align: center;
+    }
+    h4
+    {
+        padding: 20px;
+    }
+    #contenedor3
+    {
+        text-align: center;
+    }
+    #caja
+    {
+        margin: auto;
+    }
+}
